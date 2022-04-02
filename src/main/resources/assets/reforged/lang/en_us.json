@@ -1,4 +1,9 @@
 {
   "itemGroup.reforged.tab": "Reforged",
-  "item.reforged.iron_battle_axe": "Iron Battle Axe"
+  "item.reforged.wooden_battle_axe": "Wooden Battle Axe",
+  "item.reforged.stone_battle_axe": "Stone Battle Axe",
+  "item.reforged.golden_battle_axe": "Golden Battle Axe",
+  "item.reforged.iron_battle_axe": "Iron Battle Axe",
+  "item.reforged.diamond_battle_axe": "Diamond Battle Axe"
+
 }
