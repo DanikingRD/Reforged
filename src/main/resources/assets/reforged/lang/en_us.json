@@ -5,6 +5,12 @@
   "item.reforged.stone_battle_axe": "Stone Battle Axe",
   "item.reforged.golden_battle_axe": "Golden Battle Axe",
   "item.reforged.iron_battle_axe": "Iron Battle Axe",
-  "item.reforged.diamond_battle_axe": "Diamond Battle Axe"
-
+  "item.reforged.diamond_battle_axe": "Diamond Battle Axe",
+  "item.reforged.wooden_knife": "Wooden Knife",
+  "item.reforged.stone_knife": "Stone Knife",
+  "item.reforged.golden_knife": "Golden Knife",
+  "item.reforged.iron_knife": "Iron Knife",
+  "item.reforged.diamond_knife": "Diamond Knife",
+  "item.reforged.keris": "Kris",
+  "item.reforged.dynamite": "Dynamite"
 }

@@ -30,6 +30,7 @@ public final class Reforged implements ModInitializer {
     @Override
     public void onInitialize() {
         ObjectRegistry.register();
+        EntityTypeRegistry.register();
         LOGGER.info("{} V{} Initialized", NAME, VERSION);
     }
 

@@ -22,7 +22,7 @@
       "daniking.reforged.Reforged"
     ],
     "client": [
-
+      "daniking.reforged.client.ClientSetup"
     ]
   },
   "mixins": [

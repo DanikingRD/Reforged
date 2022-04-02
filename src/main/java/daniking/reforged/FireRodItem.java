@@ -8,6 +8,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.mob.CreeperEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.util.ActionResult;
@@ -30,7 +31,11 @@ public class FireRodItem extends Item implements ItemStackModifier {
         if (target.isFireImmune()) {
             return false;
         }
-        target.setOnFireFor(FIRE_DURATION_IN_SECONDS);
+        if (target instanceof CreeperEntity creeper) {
+            creeper.ignite();
+        } else {
+            target.setOnFireFor(FIRE_DURATION_IN_SECONDS);
+        }
         if (attacker instanceof PlayerEntity player) {
             if (!player.isCreative()) {
                 stack.decrement(1);
