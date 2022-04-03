@@ -1,4 +1,4 @@
-package daniking.reforged;
+package daniking.reforged.item;
 
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;

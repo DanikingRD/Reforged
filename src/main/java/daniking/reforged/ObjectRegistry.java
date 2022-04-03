@@ -1,5 +1,6 @@
 package daniking.reforged;
 
+import daniking.reforged.item.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterials;
@@ -22,6 +23,8 @@ public final class ObjectRegistry {
     public static final Item GOLDEN_KNIFE = create("golden_knife", new KnifeItem(ToolMaterials.GOLD, 3, -2.4F, settings()));
     public static final Item IRON_KNIFE = create("iron_knife", new KnifeItem(ToolMaterials.IRON, 3, -2.4F, settings()));
     public static final Item DIAMOND_KNIFE = create("diamond_knife", new KnifeItem(ToolMaterials.DIAMOND, 3, -2.4F, settings()));
+    // Javelin
+    public static final Item JAVELIN = create("javelin", new JavelinItem(settings().maxCount(16).maxDamage(32)));
     // Keris
     public static final Item KERIS_ITEM = create("keris", new KerisItem(ToolMaterials.GOLD, 3, -2.4F, settings()));
     // Dynamite

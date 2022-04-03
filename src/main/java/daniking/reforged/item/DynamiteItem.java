@@ -1,5 +1,6 @@
-package daniking.reforged;
+package daniking.reforged.item;
 
+import daniking.reforged.entity.DynamiteEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

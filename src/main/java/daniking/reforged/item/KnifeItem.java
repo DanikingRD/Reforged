@@ -1,4 +1,4 @@
-package daniking.reforged;
+package daniking.reforged.item;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;

@@ -1,6 +1,7 @@
-package daniking.reforged;
+package daniking.reforged.item;
 
 import com.google.common.collect.Multimap;
+import daniking.reforged.ItemStackModifier;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;

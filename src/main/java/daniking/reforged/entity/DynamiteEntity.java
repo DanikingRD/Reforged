@@ -1,5 +1,7 @@
-package daniking.reforged;
+package daniking.reforged.entity;
 
+import daniking.reforged.EntityTypeRegistry;
+import daniking.reforged.ObjectRegistry;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;

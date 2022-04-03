@@ -13,6 +13,7 @@ public class ClientSetup implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         EntityRendererRegistry.register(EntityTypeRegistry.DYNAMITE_ENTITY_TYPE, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(EntityTypeRegistry.JAVELIN_ENTITY_TYPE, JavelinEntityRenderer::new);
     }
 
 }

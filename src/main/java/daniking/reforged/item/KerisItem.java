@@ -1,4 +1,4 @@
-package daniking.reforged;
+package daniking.reforged.item;
 
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
